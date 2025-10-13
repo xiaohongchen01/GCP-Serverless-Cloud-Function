@@ -26,7 +26,6 @@ Auth: Key Based
 URL:
 [https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g==](https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g==)
 
-***The Azure function requires a function key. For grading, the key is shared privately (not in the repo). URL will submitted on mycourses***
 
 ## GET/POST EXAMPLE REQUEST
 #### GCP
@@ -43,4 +42,4 @@ URL:
 
 
 ## Personal Comparison
-Google Console was more intutive to use compared to Azure. Azure had more coding in order to produce the same results as Google. Azure's Url was also really long compared to Google. However, Google required me to deploy the source code before testing it, taking up a lot of time. Azure was able to test out the code without deployment.
+Google Cloud Console was more intuitive and user-friendly compared to Microsoft Azure. Azure required more manual coding and configuration to achieve the same results as Google’s platform, and its generated URLs were notably longer and less streamlined. However, Google Cloud required deploying the source code before testing, which made the process more time-consuming. In contrast, Azure allowed for code testing prior to deployment, offering greater flexibility during development.
