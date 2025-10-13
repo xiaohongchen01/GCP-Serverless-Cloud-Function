@@ -21,10 +21,10 @@ Auth:Unauthenticated(public)
 Azure Function:
 
 Region: Canada Central
-Azure URL
 Auth: Key Based 
 
-[https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1](https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1)
+URL:
+[https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g==](https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g==)
 
 ***The Azure function requires a function key. For grading, the key is shared privately (not in the repo). URL will submitted on mycourses***
 
