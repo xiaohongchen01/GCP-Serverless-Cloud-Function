@@ -53,3 +53,29 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
         }),
         mimetype="application/json"
     )
+
+
+
+
+## post request code
+import requests
+
+url = f"https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g=="
+KEY = "YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g=="
+
+rq = requests.post(url, json={"PaO2": 65}, params={"code": KEY}, timeout=10)
+print("POST:","Status Code:", rq.status_code, rq.json())
+
+
+## get request code
+import requests
+
+url = f"https://pao2-lab-values-drd6gcgeapbufxeb.canadacentral-01.azurewebsites.net/api/http_trigger1?code=YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g=="
+KEY = "YS2RIO2lVYt0bdf61fYAH2QlfbccAYxEmj2T7ZqF6U0cAzFuSqM20g=="
+
+params = {
+    "PaO2": 33,
+    "code": KEY}
+
+req = requests.get(url, params=params, timeout=10)
+print("GET:","Status Code:", req.status_code, req.json())

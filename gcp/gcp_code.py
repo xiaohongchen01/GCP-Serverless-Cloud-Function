@@ -50,3 +50,24 @@ def hello_http(request):
     }
 
     return json.dumps(payload), 200, {"Content-Type": "application/json"}
+
+
+
+
+## post request code
+import requests, json
+url = "https://po2-lab-results-226431719640.europe-west1.run.app"
+PaO2 = {"PaO2": 563}
+
+r = requests.post(url, json= PaO2)
+print("POST:","Status Code:", r.status_code,r.json())
+
+## get request code
+import requests
+
+url = "https://po2-lab-results-226431719640.europe-west1.run.app/"
+params = {"PaO2": 22}
+
+re = requests.get(url, params=params)
+
+print("GET:","Status Code:", re.status_code,re.json())
