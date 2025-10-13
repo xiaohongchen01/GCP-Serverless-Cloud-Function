@@ -29,16 +29,16 @@ URL:
 
 ## GET/POST EXAMPLE REQUEST
 #### GCP
-![gcp_testing](../image/GCP_testing.png)
-![gcp-url](../image/gcp_url.png)
+![gcp_testing](/image/GCP_testing.png)
+![gcp-url](/image/gcp_url.png)
 
 #### Azure
-![azure_testing](../image/azure_testing.png)
-![azure-url](../image/azure_url.png)
+![azure_testing](/image/azure_testing.png)
+![azure-url](./image/azure_url.png)
 
 
 ## Loom URL Recording:
-
+[loom recording](https://www.loom.com/share/59220a954ff64c72824817a989373f48?sid=1840d807-7c7c-4d9e-b04c-ba201bbc4982)
 
 
 ## Personal Comparison
