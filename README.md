@@ -1,6 +1,6 @@
 # GCP Serverless Cloud Function
 ## Lab Rules
-I used the partial pressure of oxygen in the arterila blood(PaO2) as my lab value. The link below is my source and the chart that defines it. Anything that isn't normal(80 <= PaO2 <= 100) is labelled as abnormal.
+I used the partial pressure of oxygen in the arterial blood(PaO2) as my lab value. The link below is my source and the chart that defines it. Anything that isn't normal(80 <= PaO2 <= 100) is labelled as abnormal.
 
 Source: [PaO2 information](https://ecampusontario.pressbooks.pub/mechanicalventilators/chapter/oxygenation-status-the-final-piece/)
 
